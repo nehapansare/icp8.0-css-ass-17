@@ -24,7 +24,7 @@ body {
 }
 
 .movie-card img {
-  width: 100%;
+  width: 50%;
   border-radius: 8px;
 }
 .movie-info {
@@ -55,5 +55,31 @@ body {
 
 .movie-info button:hover {
   background-color: #0056b3;
-  }
+}
 
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: flex-end;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container4{
+  display: flex;
+  
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.container5{
+  display: flex;
+
+  align-items: baseline;
+}
